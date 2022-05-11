@@ -1,0 +1,68 @@
+{
+  "existing": {
+    "firstName": "Lionel",
+    "lastName": "Messi",
+    "gender": "male",
+    "email": "lionelandresmessi@yahoo.com",
+    "password": "lalepra",
+    "dayOfBirth": "15",
+    "monthOfBirth": "April",
+    "yearOfBirth": "1986",
+    "company": "Paris Saint Germain S.R.L.",
+    "address": "409 Cervina Dr S",
+    "city": "Miami",
+    "state": "Florida",
+    "zipCode": "33101",
+    "country": "United States",
+    "homePhone": "455 5555",
+    "mobilePhone": "341 5 123 456",
+    "addressAlias": "LM10"
+  },
+
+  "valid": {
+    "firstName": "Lionel",
+    "lastName": "Messi",
+    "gender": "male",
+    "email": "lionel@gmail.com",
+    "password": "lalepra",
+    "dayOfBirth": "15",
+    "monthOfBirth": "April",
+    "yearOfBirth": "1986",
+    "company": "Paris Saint Germain S.R.L.",
+    "address": "409 Cervina Dr S",
+    "city": "Miami",
+    "state": "Florida",
+    "zipCode": "33101",
+    "country": "United States",
+    "homePhone": "455 5555",
+    "mobilePhone": "341 5 123 456",
+    "addressAlias": "LM10"
+  },
+
+  "invalidLenght" : {
+    "firstName": "MwVdQcawEKPqGpsBZMyyDTRnclsJWitDj",
+    "lastName": "MwVdQcawEKPqGpsBZMyyDTRnclsJWitDj",
+    "password": "nvhf",
+    "company": "jvVhlzSOCSvmWudoTdGYsQNwJheaeGxKbhNxWVtvqgDsSISrBRmQIHimrGzdYrcGi",
+    "address": "jvVhlzSOCSvmWudoTdGYsQNwJheaeGxKbhNxWVtvqgDsSISrBRmQIHimrGzdYrcGjvVhlzSOCSvmWudoTdGYsQNwJheaeGxKbhNxWVtvqgDsSISrBRmQIHimrGzdYrcGA",
+    "city": "jvVhlzSOCSvmWudoTdGYsQNwJheaeGxKbhNxWVtvqgDsSISrBRmQIHimrGzdYrcGi",
+    "zipCode": "123456",
+    "homePhone": "344377324142493117278767414105501",
+    "mobilePhone": "344377324142493117278767414105501",
+    "addInformation": "ivWVIPWnZRpuMWUSWcOnqeoSUFOHyoXmoioxiABROyGYmhbWXKQlJodnoEgqbCEZLyhYiLDrenXluayyCnHydXRmPAglUJqTKAmhivWVIPWnZRpuMWUSWcOnqeoSUFOHyoXmoioxiABROyGYmhbWXKQlJodnoEgqbCEZLyhYiLDrenXluayyCnHydXRmPAglUJqTKAmhivWVIPWnZRpuMWUSWcOnqeoSUFOHyoXmoioxiABROyGYmhbWXKQlJodnoEgqbCEZLyhYiLDrenXluayyCnHydXRmPAglUJqTKAmhA"
+
+  },
+
+  "invalidFormat" : {
+    "firstName": "aledj#3(+{´}",
+    "lastName": "al$j#3(+{´}",
+    "email": "l@nel@gmail/com",
+    "company": "iodsfiasd=dsshoi",
+    "address": "PO 2133, Miami, FL",
+    "city": "usdag43sdfa%2",
+    "zipCode": "123A5",
+    "homePhone": "A5hS553",
+    "mobilePhone": "A5hS552"
+  }
+
+  }

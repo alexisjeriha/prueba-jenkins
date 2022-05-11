@@ -1,0 +1,10 @@
+{
+    "baseUrl": "http://automationpractice.com/index.php",
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportDir": "cypress/report",
+        "charts": true,
+        "reportPageTitle": "Automation Practice Report",
+        "embeddedScreenshots": true 
+    }
+}

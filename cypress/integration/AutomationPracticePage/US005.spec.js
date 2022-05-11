@@ -1,12 +1,12 @@
 /// <reference types="cypress" />
 
 //#region Modules
-import user from '../fixtures/user.json'
-import { MainPage } from "../page-objects/MainPage"
-import { AuthenticationPage } from "../page-objects/AuthenticationPage";
-import { CreateAnAccountPage } from "../page-objects/CreateAnAccountPage";
-import { MyAccountPage } from "../page-objects/MyAccountPage";
-import { Header } from "../page-objects/Structure"
+import user from '../../fixtures/user.json'
+import { MainPage } from "../../page-objects/MainPage"
+import { AuthenticationPage } from "../../page-objects/AuthenticationPage";
+import { CreateAnAccountPage } from "../../page-objects/CreateAnAccountPage";
+import { MyAccountPage } from "../../page-objects/MyAccountPage";
+import { Header } from "../../page-objects/Structure"
 
 //#endregion
 

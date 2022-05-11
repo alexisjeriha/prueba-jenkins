@@ -1,10 +1,10 @@
 /// <reference types="cypress" />
 
 //#region Modules
-import user from '../fixtures/user.json'
-import { MainPage } from "../page-objects/MainPage"
-import { AuthenticationPage } from "../page-objects/AuthenticationPage";
-import { ForgotPasswordPage } from "../page-objects/ForgotPasswordPage";
+import user from '../../fixtures/user.json'
+import { MainPage } from "../../page-objects/MainPage"
+import { AuthenticationPage } from "../../page-objects/AuthenticationPage";
+import { ForgotPasswordPage } from "../../page-objects/ForgotPasswordPage";
 //#endregion
 
 describe("User Story 007: Forgot Password", () => {

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "cypress": "cypress open",
-    "test": "cypress run"
+    "test": "cypress run",
+    "triggerAllTests-US003": "npx cypress run --spec cypress/integration/AutomationPracticePage/US003.spec.js"
   },
   "keywords": [
     "internship",
@@ -22,7 +23,7 @@
   },
   "dependencies": {
     "@applitools/eyes-cypress": "^3.25.4",
-    "faker": "^6.6.6",
+    "faker": "^5.5.3",
     "randexp": "^0.5.3"
   }
 }

@@ -65,47 +65,47 @@ describe("User Story 003 - Create Account. Personal Information Area", () => {
         })
     })
 
-    describe("First Name field validations", () => {
+    // describe("First Name field validations", () => {
 
-        // BUG
-        it("Verify inline First Name field validations by entering a value with invalid length. ", () => {
-            createAccountPage.personalInformation.enterFirstName(user.invalidLenght.firstName)
-            createAccountPage.clickOutsideElement()
-            createAccountPage.personalInformation.txtFirstName().parent().should('have.class', 'form-error')
-        })
+    //     // BUG
+    //     it("Verify inline First Name field validations by entering a value with invalid length. ", () => {
+    //         createAccountPage.personalInformation.enterFirstName(user.invalidLenght.firstName)
+    //         createAccountPage.clickOutsideElement()
+    //         createAccountPage.personalInformation.txtFirstName().parent().should('have.class', 'form-error')
+    //     })
 
-        it("Verify inline First Name field validations by entering a value with invalid format. ", () => {
-            createAccountPage.personalInformation.enterFirstName(user.invalidFormat.firstName)
-            createAccountPage.clickOutsideElement()
-            createAccountPage.personalInformation.txtFirstName().parent().should('have.class', 'form-error')
-        })
+    //     it("Verify inline First Name field validations by entering a value with invalid format. ", () => {
+    //         createAccountPage.personalInformation.enterFirstName(user.invalidFormat.firstName)
+    //         createAccountPage.clickOutsideElement()
+    //         createAccountPage.personalInformation.txtFirstName().parent().should('have.class', 'form-error')
+    //     })
 
 
-        it("Verify inline First Name field validations by entering a value that meets all the criteria. ", () => {
-            createAccountPage.personalInformation.enterFirstName(user.valid.firstName)
-            createAccountPage.clickOutsideElement()
-            createAccountPage.personalInformation.txtFirstName().parent().should('have.class', 'form-ok')
-        })
+    //     it("Verify inline First Name field validations by entering a value that meets all the criteria. ", () => {
+    //         createAccountPage.personalInformation.enterFirstName(user.valid.firstName)
+    //         createAccountPage.clickOutsideElement()
+    //         createAccountPage.personalInformation.txtFirstName().parent().should('have.class', 'form-ok')
+    //     })
 
-        it("Verify First Name field validation when registering by leaving the field empty. ", () => {
-            createAccountPage.personalInformation.txtFirstName().clear()
-            createAccountPage.submit()
-            createAccountPage.errorMessage('firstname is required.').should('exist')
-        })
+    //     it("Verify First Name field validation when registering by leaving the field empty. ", () => {
+    //         createAccountPage.personalInformation.txtFirstName().clear()
+    //         createAccountPage.submit()
+    //         createAccountPage.errorMessage('firstname is required.').should('exist')
+    //     })
 
-        it("Verify First Name field validation when registering by entering a value with invalid length.", () => {
-            createAccountPage.personalInformation.enterFirstName(user.invalidLenght.firstName)
-            createAccountPage.submit()
-            createAccountPage.errorMessage('firstname is too long. Maximum length: 32').should('exist')
-        })
+    //     it("Verify First Name field validation when registering by entering a value with invalid length.", () => {
+    //         createAccountPage.personalInformation.enterFirstName(user.invalidLenght.firstName)
+    //         createAccountPage.submit()
+    //         createAccountPage.errorMessage('firstname is too long. Maximum length: 32').should('exist')
+    //     })
 
-        it("Verify First Name field validation when registering by entering a value with invalid format.", () => {
-            createAccountPage.personalInformation.enterFirstName(user.invalidFormat.firstName)
-            createAccountPage.submit()
-            createAccountPage.errorMessage('firstname is invalid').should('exist')
-        })
+    //     it("Verify First Name field validation when registering by entering a value with invalid format.", () => {
+    //         createAccountPage.personalInformation.enterFirstName(user.invalidFormat.firstName)
+    //         createAccountPage.submit()
+    //         createAccountPage.errorMessage('firstname is invalid').should('exist')
+    //     })
 
-    })
+    // })
 
     // describe("Last Name field validations", () => {
 
